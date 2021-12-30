@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="title">Judul</string>
+    <string name="description">Description</string>
+    <string name="review">Review</string>
+    <string name="write_your_review_here">Write your review here..</string>
+    <string name="send">Kirim</string>
+    <string name="kosong">Tidak Ditemukan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="all_news">All News</string>
+    <string name="bisnis">Bisnis</string>
+    <string name="kesehatan">Kesehatan</string>
+    <string name="teknologi">Teknologi</string>
+    <string name="entertaiment">Entertaiment</string>
+    <string name="ilmu">Ilmu Pengetahuan</string>
+    <string name="berita_terbaru">Berita terbaru</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
