@@ -5,11 +5,11 @@ import android.os.Bundle
 import androidx.annotation.StringRes
 import com.google.android.material.tabs.TabLayoutMediator
 import com.satya.newsapp.databinding.ActivityMainBinding
-import com.satya.newsapp.fragment.home.NewsAdapter
+import com.satya.newsapp.fragment.news.SectionPagerAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var mainBinding: ActivityMainBinding
+    /* private lateinit var mainBinding: ActivityMainBinding
 
     //private var newsAdapter: NewsAdapter? = null
 
@@ -103,4 +103,7 @@ class MainActivity : AppCompatActivity() {
     }
 
      */
+
+     */
+
 }

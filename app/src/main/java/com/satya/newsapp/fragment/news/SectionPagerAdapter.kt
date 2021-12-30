@@ -1,7 +1,8 @@
-package com.satya.newsapp
+package com.satya.newsapp.fragment.news
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.satya.newsapp.fragment.business.BusinessFragment
 import com.satya.newsapp.fragment.entertainment.EntertainmentFragment
@@ -11,7 +12,7 @@ import com.satya.newsapp.fragment.science.ScienceFragment
 import com.satya.newsapp.fragment.technology.TechnologyFragment
 
 
-class SectionPagerAdapter(private val activity: AppCompatActivity) : FragmentStateAdapter(activity) {
+class SectionPagerAdapter(private val fragment: Fragment) : FragmentStateAdapter(fragment) {
 
     override fun getItemCount(): Int = 6
 
